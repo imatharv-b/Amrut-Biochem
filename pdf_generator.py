@@ -33,7 +33,7 @@ def generate_bill_pdf(bill_data):
 
     # --- 2. TITLE SECTION ---
     elements.append(Paragraph(f"<b><font color='{THEME_COLOR.hexval()}'>|| SHRI ||</font></b>", style_center))
-    elements.append(Paragraph(f"<b><font size=14 color='{THEME_COLOR.hexval()}'>MAHESHWARI RICE MILL - PURCHASE BILL</font></b>", style_title))
+    elements.append(Paragraph(f"<b><font size=14 color='{THEME_COLOR.hexval()}'>KESAR INDUSTRIES - PURCHASE BILL</font></b>", style_title))
     elements.append(Spacer(1, 0.1*inch))
     
     # --- 3. HEADER INFO ---
